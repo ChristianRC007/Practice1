@@ -87,6 +87,11 @@ img {
   height: auto;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1110px;
   margin-left: auto;
@@ -226,4 +231,52 @@ img {
   margin-right: auto;
 
   color: var(--secondary-txt-color);
+}
+
+/* Results */
+.results {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background-color: var(--main-accent);
+}
+
+.results-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.results-icon {
+  fill: var(--main-white);
+
+  margin-right: 20px;
+}
+
+.results-item {
+  display: flex;
+}
+
+.results-text-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.results-list-title {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.19;
+
+  color: var(--main-white);
+
+  margin-bottom: 5px;
+}
+
+.results-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+
+  color: var(--main-white);
 }

@@ -51,3 +51,36 @@
     /* Safari, Android, iOS */
       url('../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto') format('svg'); /* Legacy iOS */
 }
+
+:root {
+  --main-black: #000000;
+  --main-white: #ffffff;
+  --main-accent: #34547a;
+  --main-bg-color: #fcfdfd;
+  --section-bg-color: #eeeff1;
+  --secondary-txt-color: #727272;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

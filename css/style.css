@@ -76,11 +76,126 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  /* outline: 1px solid red; */
+}
+
+/* Header */
+.header {
+  width: 100%;
+  position: absolute;
+  margin-top: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.logo {
+  font-family: 'Revalia', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.25;
+
+  color: var(--main-accent);
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+.nav-link:hover {
+  color: var(--main-accent);
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: var(--section-bg-color);
+  height: 690px;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-icon {
+  margin-left: 80px;
+  margin-right: 140px;
+  width: 880px;
+  height: 230px;
+}
+
+.hero-info > .title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+
+  margin-bottom: 60px;
+}
+
+.hero-info > .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.01em;
+
+  color: var(--secondary-txt-color);
+
+  margin-bottom: 60px;
+}
+
+.hero-info > .button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: var(--main-white);
+
+  padding: 25px 41px;
+  background-color: var(--main-accent);
+  border: 1px solid transparent;
+}
+
+/* About */

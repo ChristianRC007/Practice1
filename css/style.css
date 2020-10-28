@@ -139,7 +139,8 @@ img {
   padding: 20px 0;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--main-accent);
 }
 
@@ -164,7 +165,7 @@ img {
   height: 230px;
 }
 
-.hero-info > .title {
+.hero-info-title {
   font-weight: 500;
   font-size: 48px;
   line-height: 1.65;
@@ -173,7 +174,7 @@ img {
   margin-bottom: 60px;
 }
 
-.hero-info > .text {
+.hero-info-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
@@ -199,3 +200,30 @@ img {
 }
 
 /* About */
+.about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.16;
+  letter-spacing: normal;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--secondary-txt-color);
+}

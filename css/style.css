@@ -280,3 +280,64 @@ ul {
 
   color: var(--main-white);
 }
+
+/* Skills */
+.skills {
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+.skills-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  margin-bottom: 50px;
+}
+
+.skills-level {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.01em;
+
+  color: var(--secondary-txt-color);
+}
+
+.skills-level::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 95px;
+  height: 4px;
+  background-color: #c4c4c4;
+
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+
+  transform: translateX(94px);
+}
+
+.skills-level::after {
+  content: '';
+  display: block;
+  width: 350px;
+  height: 4px;
+  background-color: var(--main-accent);
+
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.skills-author {
+  display: block;
+}

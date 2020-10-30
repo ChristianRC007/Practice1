@@ -402,6 +402,8 @@ ul {
 
   background-color: var(--main-accent);
   opacity: 0;
+
+  transition: opacity 250ms linear;
 }
 
 .portfolio-item:hover::before {
@@ -420,6 +422,8 @@ ul {
 
   fill: var(--main-white);
   opacity: 0;
+
+  transition: opacity 250ms linear;
 }
 
 /* Clients */
@@ -526,13 +530,15 @@ ul {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+
   width: 70px;
   height: 70px;
   border-radius: 50%;
   border: 1px solid transparent;
-  transition: border 0.1s linear;
+
+  transition: border 250ms linear;
 }
 
 .social-link:hover {
-  border: 2px solid white;
+  border: 6px solid white;
 }
